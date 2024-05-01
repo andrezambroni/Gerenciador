@@ -1,7 +1,7 @@
-package br.com.feltex.academicnet.controller;
+package br.com.az.academicnet.controller;
 
-import br.com.feltex.academicnet.modelo.Aluno;
-import br.com.feltex.academicnet.repositorio.AlunoRepositorio;
+import br.com.az.academicnet.modelo.Aluno;
+import br.com.az.academicnet.repositorio.AlunoRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,7 @@
-package br.com.feltex.academicnet;
+package br.com.az.academicnet;
 
-import br.com.feltex.academicnet.modelo.Aluno;
-import br.com.feltex.academicnet.repositorio.AlunoRepositorio;
+import br.com.az.academicnet.modelo.Aluno;
+import br.com.az.academicnet.repositorio.AlunoRepositorio;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.junit.jupiter.api.Test;
@@ -33,8 +33,8 @@ class AcademicnetApplicationTests {
     private final ObjectMapper objectMapper = new ObjectMapper().registerModule(new JavaTimeModule());
 
     final Instant dataCadastro = Instant.parse("2021-01-04T10:20:19.0Z");
-    final Aluno aluno = new Aluno(123L, "Jose da Silva", "33444-0093", "contato@feltex.com.br", dataCadastro);
-    final Aluno alunoParaAlterar = new Aluno(123L, "Jose da Silva Santos", "33444-99999", "santos@feltex.com.br", dataCadastro);
+    final Aluno aluno = new Aluno(123L, "Jose da Silva", "33444-0093", "contato@az.com.br", dataCadastro);
+    final Aluno alunoParaAlterar = new Aluno(123L, "Jose da Silva Santos", "33444-99999", "santos@az.com.br", dataCadastro);
 
     @Test
     void crudAluno() throws Exception {

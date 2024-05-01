@@ -35,7 +35,7 @@
 							"   pm.expect(pm.response.code).to.equal(200);",
 							"   const alunoJson = pm.response.json();",
 							"   pm.expect(alunoJson.matricula).to.equal(444);",
-							"   pm.expect(alunoJson.email).to.equal(\"josesilva@feltex.com.br\");",
+							"   pm.expect(alunoJson.email).to.equal(\"josesilva@az.com.br\");",
 							"",
 							"});"
 						],
@@ -68,7 +68,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\n  \"matricula\" : 123,\n  \"nome\" : \"Maria Santos e Souza\",\n  \"telefone\": \"1234-56789\",\n  \"email\":  \"maria@feltex.com.br\",\n  \"dataCadastro\": \"2021-05-11T10:19:14.0Z\"\n}",
+					"raw": "{\n\n  \"matricula\" : 123,\n  \"nome\" : \"Maria Santos e Souza\",\n  \"telefone\": \"1234-56789\",\n  \"email\":  \"maria@az.com.br\",\n  \"dataCadastro\": \"2021-05-11T10:19:14.0Z\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -96,7 +96,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\n  \"matricula\" : 444,\n  \"nome\" : \"Jose da Silva\",\n  \"telefone\": \"7777-8888\",\n  \"email\":  \"josesilva@feltex.com.br\",\n  \"dataCadastro\": \"2021-05-11T06:19:14.0Z\"\n}",
+					"raw": "{\n\n  \"matricula\" : 444,\n  \"nome\" : \"Jose da Silva\",\n  \"telefone\": \"7777-8888\",\n  \"email\":  \"josesilva@az.com.br\",\n  \"dataCadastro\": \"2021-05-11T06:19:14.0Z\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -124,7 +124,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\n  \"matricula\" : 123,\n  \"nome\" : \"Maria Santos e Souza - Alterado\",\n  \"telefone\": \"1234-0000\",\n  \"email\":  \"maria@feltex.com.br\",\n  \"dataCadastro\": \"2021-05-11T10:19:14.0Z\"\n}",
+					"raw": "{\n\n  \"matricula\" : 123,\n  \"nome\" : \"Maria Santos e Souza - Alterado\",\n  \"telefone\": \"1234-0000\",\n  \"email\":  \"maria@az.com.br\",\n  \"dataCadastro\": \"2021-05-11T10:19:14.0Z\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"

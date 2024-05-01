@@ -1,4 +1,4 @@
-package br.com.feltex.academicnet.controller;
+package br.com.az.academicnet.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

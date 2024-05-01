@@ -160,7 +160,7 @@
   &quot;matricula&quot; : ${MATRICULA},&#xd;
   &quot;nome&quot;: &quot;${__RandomString(10,abcdefghijklmnopqrstuvwxyz,)}&quot;,&#xd;
   &quot;telefone&quot;: &quot;${MATRICULA}-56789&quot;,&#xd;
-  &quot;email&quot;:  &quot;${__UUID()}@feltex.com.br&quot;,&#xd;
+  &quot;email&quot;:  &quot;${__UUID()}@az.com.br&quot;,&#xd;
   &quot;dataCadastro&quot;: &quot;${__time(yyyy-MM-dd&apos;T&apos;hh:mm:ss&apos;.0Z&apos;,)}&quot;&#xd;
 }</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
@@ -252,7 +252,7 @@
   &quot;matricula&quot; : ${MATRICULA},&#xd;
   &quot;nome&quot;: &quot;${__RandomString(10,abcdefghijklmnopqrstuvwxyz,)}&quot;,&#xd;
   &quot;telefone&quot;: &quot;(99)${MATRICULA}-56789&quot;,&#xd;
-  &quot;email&quot;:  &quot;${__UUID()}@feltex.com.br&quot;,&#xd;
+  &quot;email&quot;:  &quot;${__UUID()}@az.com.br&quot;,&#xd;
   &quot;dataCadastro&quot;: &quot;${__time(yyyy-MM-dd&apos;T&apos;hh:mm:ss&apos;.0Z&apos;,)}&quot;&#xd;
 }</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>

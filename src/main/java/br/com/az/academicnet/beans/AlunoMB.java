@@ -1,7 +1,7 @@
-package br.com.feltex.academicnet.beans;
+package br.com.az.academicnet.beans;
 
-import br.com.feltex.academicnet.modelo.Aluno;
-import br.com.feltex.academicnet.repositorio.AlunoRepositorio;
+import br.com.az.academicnet.modelo.Aluno;
+import br.com.az.academicnet.repositorio.AlunoRepositorio;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package br.com.feltex.academicnet;
+package br.com.az.academicnet;
 
 import com.sun.faces.config.ConfigureListener;
 import org.springframework.boot.SpringApplication;

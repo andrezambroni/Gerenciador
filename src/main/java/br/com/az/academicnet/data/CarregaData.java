@@ -1,7 +1,7 @@
-package br.com.feltex.academicnet.data;
+package br.com.az.academicnet.data;
 
-import br.com.feltex.academicnet.modelo.Aluno;
-import br.com.feltex.academicnet.repositorio.AlunoRepositorio;
+import br.com.az.academicnet.modelo.Aluno;
+import br.com.az.academicnet.repositorio.AlunoRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -23,7 +23,7 @@ public class CarregaData {
 
         if (podeCarregarDados) {
             for (int x = 0; x < 50; x++) {
-                alunoRepositorio.save(new Aluno((long) x, "Jose da Silva" + x, "99662-554" + x, "jose@feltex.com.br", Instant.now()));
+                alunoRepositorio.save(new Aluno((long) x, "Jose da Silva" + x, "99662-554" + x, "jose@az.com.br", Instant.now()));
             }
 
         }

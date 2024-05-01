@@ -1,4 +1,4 @@
-package br.com.feltex.academicnet.modelo;
+package br.com.az.academicnet.modelo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
